@@ -659,6 +659,13 @@ input {
 }
 
 @media print {
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+
   /* Hide the header and download button when printing */
   .header {
     display: none;
@@ -672,10 +679,5 @@ input {
     display: none;
   }
   
-  .resume {
-    box-shadow: 5px 5px 20px rgb(177, 166, 166);
-  }
-
-
 
 }
