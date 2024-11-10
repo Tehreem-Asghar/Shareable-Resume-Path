@@ -35,10 +35,6 @@ function copyLink() {
     // Create the unique URL using the query string
     const uniqueUrl = `${window.location.origin}?${queryParams.toString()}`;
 
-  // Open the unique URL in a new tab
-  window.open(uniqueUrl, '_blank');
-
-
     // Copy the URL to clipboard
     navigator.clipboard.writeText(uniqueUrl)
         .then(() => {

@@ -679,5 +679,7 @@ input {
     display: none;
   }
   
-
+form{
+  display: none;
+}
 }

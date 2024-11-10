@@ -27,8 +27,6 @@ function copyLink() {
     });
     // Create the unique URL using the query string
     var uniqueUrl = "".concat(window.location.origin, "?").concat(queryParams.toString());
-    // Open the unique URL in a new tab
-    window.open(uniqueUrl, '_blank');
     // Copy the URL to clipboard
     navigator.clipboard.writeText(uniqueUrl)
         .then(function () {

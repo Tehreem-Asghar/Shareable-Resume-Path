@@ -38,17 +38,6 @@ function createResume() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // Submit Form
 
 // Helper function to update the Education section of the resume
